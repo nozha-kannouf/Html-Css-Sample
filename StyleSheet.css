@@ -1,0 +1,97 @@
+﻿.header {
+    background:powderblue;
+    padding: 15px;
+}
+
+h1, h2 {
+    text-align: left;
+}
+
+h3 {
+    border: 3px solid black;
+    border-color: black;
+    padding: 3px;
+}
+
+aside {
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+}
+
+pre {
+    font-family: Corbel;
+}
+
+a:link {
+    color: darkslategrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkslategrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+    background-color: transparent;
+    text-decoration: underline;
+}
+img {
+    width: 150px;
+    height: 128px;
+}
+
+table {
+    background-color: azure;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    font-style:inherit;
+}
+
+tr:nth-child(even) {
+    background-color: darkslategrey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: antiquewhite;
+    padding: 30px;
+    float: left;
+    width: 30%;
+    
+}
+
+.main {
+    background-color: powderblue;
+    padding: 20px;
+    float: left;
+    width: 70%; 
+}
+
+@media screen and (max-width:800px) {
+    .menu, .main{
+        width: 100%; 
+        height: 100%;
+    }
+}
+
